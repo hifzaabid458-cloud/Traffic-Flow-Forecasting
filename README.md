@@ -64,8 +64,11 @@ Linear Regression was selected as a fast and interpretable baseline forecasting 
 The model was evaluated on the unseen testing data.
 
 ### Metric     Result
+
  MAE        0.01007
+ 
  RMSE       0.01311
+ 
  R² Score   0.99174
     
 The model achieved an R² score of approximately 99.17% on the test data.
