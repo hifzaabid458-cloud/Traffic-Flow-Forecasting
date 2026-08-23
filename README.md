@@ -82,14 +82,23 @@ These visualizations help evaluate how closely the model follows the actual traf
 The trained model was tested using the most recent 10 traffic observations.
 ### Recent Traffic Values
 0.24148
+
 0.22800
+
 0.19883
+
 0.16856
+
 0.15029
+
 0.14443
+
 0.12207
+
 0.11362
+
 0.09353
+
 0.09139
 
 ### Predicted Next Traffic Value
@@ -98,11 +107,17 @@ The prediction indicates a continued decrease in the normalized traffic-flow val
 
 ## 🛠️ Technologies Used
 ▪️Python
+
 ▪️Pandas
+
 ▪️NumPy
+
 ▪️Matplotlib
+
 ▪️Scikit-learn
+
 ▪️Joblib
+
 ▪️Jupyter Notebook
 
 ## 📁 Project Structure
@@ -139,11 +154,17 @@ model = joblib.load("traffic_forecasting_model.pkl")
 ## 🚀 Future Improvements
 Possible improvements include:
 ▪️Testing Random Forest and other regression models.
+
 ▪️Using individual traffic locations instead of averaging them.
+
 ▪️Incorporating the traffic adjacency matrix.
+
 ▪️Exploring advanced time-series models.
+
 ▪️Experimenting with LSTM or other deep learning architectures.
+
 ▪️Building a real-time traffic prediction application.
+
 ▪️Deploying the model as a web or mobile application.
 
 ## 👩‍💻 Author
